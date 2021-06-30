@@ -14,7 +14,7 @@ MONGO_PASSWORD=""
 
 # Set If Auth On your DB
 AUTH_PARAM=""
-# AUTH_PARAM="--username=${MONGO_USER} --pasword=${MONGO_PASSWORD}"
+# AUTH_PARAM="--username=${MONGO_USER} --password=${MONGO_PASSWORD} --authenticationDatabase admin"
 
 echo
 echo
